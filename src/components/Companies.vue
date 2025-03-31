@@ -497,3 +497,29 @@ export default {
 };
 
 </script>
+
+<style>
+/* Ensure dark mode styles are applied */
+html.dark {
+  background-color: #1a202c;
+  /* Dark background */
+  color: #f7fafc;
+  /* Light text */
+}
+
+/* Example table styles for dark mode */
+.dark .bg-gray-100 {
+  background-color: #2d3748;
+  /* Darker background for table headers */
+}
+
+.dark .border-gray-200 {
+  border-color: #4a5568;
+  /* Darker border color */
+}
+
+.dark .hover\:bg-gray-50:hover {
+  background-color: #4a5568;
+  /* Darker hover background */
+}
+</style>
